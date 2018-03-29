@@ -1,0 +1,2042 @@
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.homebox {
+  width: 100%;
+  height: calc(100% - 1rem);
+  background: #eee;
+}
+.homebox .ShowNum {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+}
+.homebox .ShowNum .ShowHint {
+  width: 100%;
+  height: 5.96rem;
+  background: #fff;
+  margin-bottom: 0.2rem;
+  text-align: center;
+}
+.homebox .ShowNum .ShowHint .Money-hitbar {
+  width: 100%;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 0.24rem;
+}
+.homebox .ShowNum .ShowHint .Money-hitbar .Money-hitText {
+  display: inline-block;
+  background: #ffc03a;
+  color: #df0a0a;
+  width: 100%;
+}
+.homebox .ShowNum .ShowHint .Money-height {
+  font-size: 0.3rem;
+  color: #999;
+  width: 100%;
+  height: 0.32rem;
+  line-height: 0.32rem;
+}
+.homebox .ShowNum .ShowHint .Money-num {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #333;
+  width: 100%;
+  height: 1.1rem;
+  line-height: 1.1rem;
+  margin-top: 0.3rem;
+}
+.homebox .ShowNum .ShowHint .Money-num .rmbflag {
+  display: inline-block;
+  width: 0.25rem;
+  height: 100%;
+  line-height: 1.1rem;
+  margin-right: 0.25rem;
+  vertical-align: text-bottom;
+}
+.homebox .ShowNum .ShowHint .Money-num .rmbflag img {
+  width: 0.25rem;
+  height: 0.3rem;
+}
+.homebox .ShowNum .ShowHint .Money-hit {
+  font-size: 0.3rem;
+  color: #666;
+  width: 100%;
+  height: 0.32rem;
+  line-height: 0.32rem;
+  margin-top: 0.35rem;
+}
+.homebox .ShowNum .ShowHint .Money-btn {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-top: 0.35rem;
+}
+.homebox .ShowNum .ShowHint .Money-btn .btn {
+  margin: 0;
+  padding: 0;
+  width: 6rem;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  background: #26b0ff;
+  border-radius: 0.45rem;
+  font-size: 0.36rem;
+  color: #fff;
+}
+.homebox .ShowNum .Audit {
+  width: 100%;
+  height: 5.96rem;
+  background: #fff;
+  margin-bottom: 0.2rem;
+  text-align: center;
+}
+.homebox .ShowNum .Audit .Audit-hitbar {
+  width: 100%;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 0.24rem;
+}
+.homebox .ShowNum .Audit .Audit-hitbar .Audit-hitText {
+  width: 100%;
+  display: inline-block;
+  background: #ffc03a;
+  color: #df0a0a;
+}
+.homebox .ShowNum .Audit .Audit-title {
+  color: #333;
+  font-size: 0.44rem;
+  font-weight: 500;
+}
+.homebox .ShowNum .Audit .Audit-time {
+  margin-top: 0.55rem;
+}
+.homebox .ShowNum .Audit .Audit-time .Audit-list {
+  width: 50%;
+  text-align: center;
+}
+.homebox .ShowNum .Audit .Audit-time .Audit-list .item-title {
+  color: #666;
+  font-size: 0.3rem;
+  margin-bottom: 0.42rem;
+}
+.homebox .ShowNum .Audit .Audit-time .Audit-list .item-tiem {
+  color: #333;
+  font-size: 0.4rem;
+}
+.homebox .ShowNum .Audit .Audit-time .Audit-list .item-tiem.active {
+  color: #df0a0a;
+}
+.homebox .ShowNum .Audit .Audit-btn {
+  margin-top: 0.55rem;
+}
+.homebox .ShowNum .Audit .Audit-btn .btn-info {
+  background: #26b0ff;
+  width: 6rem;
+  height: 0.9rem;
+  border-radius: 0.45rem;
+  color: #fff;
+  font-size: 0.36rem;
+}
+.homebox .ShowNum .Audit .Audit-btn .btn-refund,
+.homebox .ShowNum .Audit .Audit-btn .btn-renew {
+  width: 2.69rem;
+  height: 0.9rem;
+  background: #26b0ff;
+  border-radius: 0.45rem;
+  font-size: 0.36rem;
+}
+.homebox .ShowNum .Audit .Audit-btn .btn-refund {
+  color: #fff;
+  margin-right: 0.6rem;
+}
+.homebox .ShowNum .Audit .Audit-btn .btn-renew {
+  border: 1px solid #26b0ff;
+  background: #fff;
+  color: #26b0ff;
+}
+.homebox .ShowNum .MoneyBox {
+  width: 100%;
+  height: 2.4rem;
+  margin-bottom: 0.2rem;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.36rem;
+}
+.homebox .ShowNum .MoneyBox .Moneyitem {
+  flex-grow: 1;
+  height: 100%;
+  background: #fff;
+  text-align: center;
+}
+.homebox .ShowNum .MoneyBox .Moneyitem .MoneyImg {
+  width: 100%;
+  height: 0.62rem;
+  line-height: 0.62rem;
+  margin-bottom: 0.15rem;
+}
+.homebox .ShowNum .MoneyBox .Moneyitem .MoneyImg img {
+  display: inline-block;
+  width: 0.65rem;
+  height: 0.52rem;
+}
+.homebox .ShowNum .MoneyBox .Moneyitem .Moneyname1 {
+  font-size: 0.3rem;
+  color: #333;
+  height: 0.28rem;
+  margin-bottom: 0.15rem;
+}
+.homebox .ShowNum .MoneyBox .Moneyitem .Moneyname2 {
+  font-size: 0.24rem;
+  color: #666;
+  height: 0.26;
+}
+.homebox .ShowNum .sharelist {
+  width: 100%;
+  height: 2.4rem;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+.homebox .ShowNum .sharelist .shareItem {
+  width: 50%;
+  height: 100%;
+  background: #fff;
+}
+.homebox .ShowNum .sharelist .shareItem .register {
+  width: 100%;
+  height: 100%;
+  padding-left: 0.53rem;
+  padding-top: 0.45rem;
+}
+.homebox .ShowNum .sharelist .shareItem .register .share-hit1 {
+  font-size: 0.32rem;
+  font-weight: bold;
+  color: #333;
+}
+.homebox .ShowNum .sharelist .shareItem .register .share-hit2 {
+  font-size: 0.28rem;
+  color: #666;
+  margin-top: 0.25rem;
+}
+.homebox .ShowNum .sharelist .shareItem .register .share-btn {
+  margin-top: 0.2rem;
+  display: flex;
+  align-items: center;
+}
+.homebox .ShowNum .sharelist .shareItem .register .share-btn .btn {
+  width: 1.4rem;
+  height: 0.5rem;
+  border-radius: 0.25rem;
+  background: #26b0ff;
+  font-size: 0.2rem;
+  color: #fff;
+}
+.homebox .ShowNum .sharelist .shareItem .jb {
+  width: 90%;
+  height: 1.97rem;
+  padding-top: 0.35rem;
+}
+.homebox .ShowNum .sharelist .shareItem .jb img {
+  width: 100%;
+  height: 100%;
+}
+.sign {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.2);
+  z-index: 30000;
+}
+.sign .popup-box {
+  width: 6rem;
+  height: auto;
+  background: #fff;
+  position: relative;
+  left: 50%;
+  top: 42%;
+  margin-left: -3rem;
+  margin-top: -3.55rem;
+  border-radius: 0.2rem;
+}
+.sign .popup-box .header {
+  height: 1.15rem;
+  width: 100%;
+  padding: 0.35rem 0.5rem;
+  font-size: 0.4rem;
+  font-weight: bold;
+  color: #333;
+}
+.sign .popup-box .header .sign-close {
+  width: 0.45rem;
+  height: 0.45rem;
+}
+.sign .popup-box .header .sign-close img {
+  width: 100%;
+  height: 100%;
+}
+.sign .popup-box .sign-number {
+  padding: 0 0.5rem;
+}
+.sign .popup-box .sign-number .item-num,
+.sign .popup-box .sign-number .item-code,
+.sign .popup-box .sign-number .item-pass {
+  width: 100%;
+  height: 0.8rem;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.28rem;
+}
+.sign .popup-box .sign-number .item-num input,
+.sign .popup-box .sign-number .item-code input,
+.sign .popup-box .sign-number .item-pass input {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #d6d5d5;
+  border-radius: 0.4rem;
+  padding: 0 0.3rem;
+  color: #333;
+}
+.sign .popup-box .sign-number .item-code input[type="number"] {
+  width: 2.6rem;
+  margin-right: 0.2rem;
+}
+.sign .popup-box .sign-number .item-code .code-btn {
+  width: 2.2rem;
+  color: #fff;
+  border-color: #26b0ff;
+  background: #26b0ff;
+}
+.sign .popup-box .sign-number .item-code .code-btn.active {
+  background: #f5f5f5;
+  border-color: #f5f5f5;
+  color: #999;
+}
+.sign .popup-box .sign-protocol {
+  width: 100%;
+  font-size: 0.24rem;
+  color: #333;
+}
+.sign .popup-box .sign-protocol .sign-box {
+  padding: 0 0.5rem;
+}
+.sign .popup-box .sign-protocol .sign-box .sign-deal {
+  color: #26b0ff;
+}
+.sign .popup-box .sign-protocol .sign-box .sign-select {
+  width: 0.26rem;
+  height: 0.26rem;
+  margin-top: 0.04rem;
+  margin-right: 0.06rem;
+}
+.sign .popup-box .sign-protocol .sign-box .sign-select img {
+  width: 100%;
+  height: 100%;
+}
+.sign .popup-box .sign-btn {
+  padding: 0 0.5rem;
+}
+.sign .popup-box .sign-btn .btn {
+  width: 100%;
+  height: 0.8rem;
+  font-size: 0.3rem;
+  color: #fff;
+  background: #26b0ff;
+  border-radius: 0.4rem;
+}
+.sign .popup-box .sign-register {
+  width: 100%;
+  padding-bottom: 0.35rem;
+}
+.sign .popup-box .sign-register .sign-login {
+  color: #26b0ff;
+  font-size: 0.24rem;
+  margin-right: 0.48rem;
+  margin-top: 0.2rem;
+}
+.login {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.2);
+  z-index: 10001;
+}
+.login .popup-box {
+  width: 6rem;
+  height: auto;
+  background: #fff;
+  position: relative;
+  left: 50%;
+  top: 45%;
+  margin-left: -3rem;
+  margin-top: -3.55rem;
+  border-radius: 0.2rem;
+}
+.login .popup-box .header {
+  height: 1.15rem;
+  width: 100%;
+  padding: 0.35rem 0.5rem;
+  font-size: 0.4rem;
+  font-weight: bold;
+  color: #333;
+}
+.login .popup-box .header .login-close {
+  width: 0.45rem;
+  height: 0.45rem;
+}
+.login .popup-box .header .login-close img {
+  width: 100%;
+  height: 100%;
+}
+.login .popup-box .login-number {
+  padding: 0 0.5rem;
+}
+.login .popup-box .login-number .item-num,
+.login .popup-box .login-number .item-pass {
+  width: 100%;
+  height: 0.8rem;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.28rem;
+}
+.login .popup-box .login-number .item-num input,
+.login .popup-box .login-number .item-pass input {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #d6d5d5;
+  border-radius: 0.4rem;
+  padding: 0 0.3rem;
+  color: #333;
+}
+.login .popup-box .login-protocol {
+  width: 100%;
+  font-size: 0.24rem;
+  color: #333;
+}
+.login .popup-box .login-protocol .login-box {
+  padding: 0 0.5rem;
+}
+.login .popup-box .login-protocol .login-box .login-deal {
+  color: #26b0ff;
+}
+.login .popup-box .login-protocol .login-box .login-select {
+  width: 0.26rem;
+  height: 0.26rem;
+  margin-top: 0.04rem;
+  margin-right: 0.06rem;
+}
+.login .popup-box .login-protocol .login-box .login-select img {
+  width: 100%;
+  height: 100%;
+}
+.login .popup-box .login-btn {
+  padding: 0 0.5rem;
+}
+.login .popup-box .login-btn .btn {
+  width: 100%;
+  height: 0.8rem;
+  font-size: 0.3rem;
+  color: #fff;
+  background: #26b0ff;
+  border-radius: 0.4rem;
+}
+.login .popup-box .login-register {
+  width: 100%;
+  padding-bottom: 0.35rem;
+}
+.login .popup-box .login-register .login-password {
+  color: #26b0ff;
+  font-size: 0.24rem;
+  margin-right: 0.48rem;
+  margin-top: 0.2rem;
+}
+.hint {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.2);
+  z-index: 10001;
+}
+.hint .popup-box {
+  width: 6rem;
+  height: auto;
+  background: #fff;
+  position: relative;
+  left: 50%;
+  top: 45%;
+  margin-left: -3rem;
+  margin-top: -3.55rem;
+  border-radius: 0.2rem;
+}
+.hint .popup-box .header {
+  height: 0.8rem;
+  width: 100%;
+  padding: 0.35rem 0.5rem;
+  padding-bottom: 0;
+  font-size: 0.4rem;
+  font-weight: bold;
+  color: #333;
+}
+.hint .popup-box .header .hint-close {
+  width: 0.45rem;
+  height: 0.45rem;
+}
+.hint .popup-box .header .hint-close img {
+  width: 100%;
+  height: 100%;
+}
+.hint .popup-box .hint-money .hint-title {
+  font-size: 0.3rem;
+  color: #333;
+  text-align: center;
+}
+.hint .popup-box .hint-money .hint-num {
+  margin-top: 0.56rem;
+  font-size: 0.72rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+.hint .popup-box .hint-money .hint-num .flag {
+  margin-right: 0.2rem;
+  vertical-align: text-bottom;
+}
+.hint .popup-box .hint-money .hint-num .flag img {
+  width: 0.25rem;
+  height: 0.3rem;
+}
+.hint .popup-box .hint-btn {
+  padding: 0 0.5rem;
+  padding-bottom: 0.78rem;
+}
+.hint .popup-box .hint-btn .btn {
+  width: 100%;
+  height: 0.8rem;
+  font-size: 0.3rem;
+  color: #fff;
+  background: #26b0ff;
+  border-radius: 0.4rem;
+}
+.defeated {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+.defeated .popup-box {
+  width: 6rem;
+  height: auto;
+  background: #fff;
+  position: relative;
+  left: 50%;
+  top: 45%;
+  margin-left: -3rem;
+  margin-top: -3.55rem;
+  border-radius: 0.2rem;
+}
+.defeated .popup-box .header {
+  height: 0.8rem;
+  width: 100%;
+  padding: 0.35rem 0.5rem;
+  padding-bottom: 0;
+  font-size: 0.4rem;
+  font-weight: bold;
+  color: #333;
+}
+.defeated .popup-box .header .defeated-close {
+  width: 0.45rem;
+  height: 0.45rem;
+}
+.defeated .popup-box .header .defeated-close img {
+  width: 100%;
+  height: 100%;
+}
+.defeated .popup-box .defeated-box .defeated-title {
+  font-size: 0.3rem;
+  color: #333;
+  text-align: center;
+}
+.defeated .popup-box .defeated-box .defeated-img {
+  width: 0.86rem;
+  height: 0.86rem;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 0.43rem;
+  text-align: center;
+}
+.defeated .popup-box .defeated-box .defeated-img img {
+  width: 100%;
+  height: 100%;
+}
+.defeated .popup-box .defeated-btn {
+  padding: 0 0.5rem;
+  padding-bottom: 0.78rem;
+}
+.defeated .popup-box .defeated-btn .btn {
+  width: 100%;
+  height: 0.8rem;
+  font-size: 0.3rem;
+  color: #fff;
+  background: #26b0ff;
+  border-radius: 0.4rem;
+}
+.record {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+.record .record-box {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+.record .record-box .record-nav {
+  width: 100%;
+  height: 0.77rem;
+  line-height: 0.77rem;
+  padding: 0 0.2rem;
+  background: #fff;
+  margin: 0.2rem 0;
+  font-size: 0.3rem;
+  color: #333;
+}
+.record .record-box .record-nav .rnav-box {
+  width: 50%;
+  height: 100%;
+}
+.record .record-box .record-nav .rnav-box.active {
+  color: #26b0ff;
+}
+.record .record-box .record-nav .rnav-box .rnav-title {
+  text-align: center;
+  line-height: 0.77rem;
+}
+.record .record-box .record-nav .rnav-box .rnav-Str {
+  width: 100%;
+  height: 0.04rem;
+  background: #fff;
+  margin-top: -0.03rem;
+}
+.record .record-box .record-nav .rnav-box.active .rnav-Str {
+  background: #26b0ff;
+}
+.record .record-box .record-list {
+  width: 6.8rem;
+  height: calc(100% - 1.17rem);
+  padding-bottom: 0.2rem;
+  margin: 0 auto;
+  overflow-y: auto;
+}
+.record .record-box .record-list .record-item {
+  background: #fff;
+  width: 100%;
+  height: 2.9rem;
+  border-radius: 0.2rem;
+  overflow: hidden;
+  margin-bottom: 0.2rem;
+}
+.record .record-box .record-list .record-item .record-top {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #efefef;
+}
+.record .record-box .record-list .record-item .record-top .record-left {
+  width: 50%;
+  height: auto;
+}
+.record .record-box .record-list .record-item .record-top .record-left .record-flag {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 0.18rem;
+  color: #fff;
+  position: relative;
+  transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg) /* IE 9 */;
+  -moz-transform: rotate(-45deg) /* Firefox */;
+  -webkit-transform: rotate(-45deg) /* Safari 和 Chrome */;
+  -o-transform: rotate(-45deg) /* Opera */;
+  margin-left: -0.75rem;
+  margin-top: -0.75rem;
+}
+.record .record-box .record-list .record-item .record-top .record-left .record-flag.start {
+  background: #ffc03a;
+}
+.record .record-box .record-list .record-item .record-top .record-left .record-flag.course {
+  background: #26b0ff;
+}
+.record .record-box .record-list .record-item .record-top .record-left .record-flag.overdue {
+  background: #f20e4f;
+}
+.record .record-box .record-list .record-item .record-top .record-left .record-flag.finish {
+  background: #dfdfdf;
+}
+.record .record-box .record-list .record-item .record-top .record-left .record-flag.efficacy {
+  background: #dfdfdf;
+}
+.record .record-box .record-list .record-item .record-top .record-left .record-flag .flag-title {
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  width: 100%;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  text-align: center;
+}
+.record .record-box .record-list .record-item .record-top .record-left .record-num {
+  margin-left: 0.44rem;
+  height: 0.84rem;
+  line-height: 0.84rem;
+}
+.record .record-box .record-list .record-item .record-top .record-left .record-num .record-img {
+  width: 0.25rem;
+  height: 0.3rem;
+  display: inline-block;
+  line-height: 0.35rem;
+}
+.record .record-box .record-list .record-item .record-top .record-left .record-num .record-img img {
+  width: 0.25rem;
+  height: 0.3rem;
+}
+.record .record-box .record-list .record-item .record-top .record-left .record-num .record-text {
+  font-size: 0.8rem;
+  color: #333;
+  display: inline-block;
+}
+.record .record-box .record-list .record-item .record-top .record-right {
+  width: 50%;
+  height: auto;
+  font-size: 0.24rem;
+  color: #666;
+}
+.record .record-box .record-list .record-item .record-top .record-right span {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  padding-right: 0.2rem;
+}
+.record .record-box .record-list .record-item .record-top .record-right .record-cord {
+  margin-top: 0.16rem;
+}
+.record .record-box .record-list .record-item .record-top .record-right .record-borrow {
+  margin-top: 0.22rem;
+}
+.record .record-box .record-list .record-item .record-top .record-right .record-repay {
+  margin-top: 0.12rem;
+}
+.record .record-box .record-list .record-item .record-bottom {
+  width: 100%;
+  height: auto;
+}
+.record .record-box .record-list .record-item .record-bottom .record-left {
+  width: 50%;
+  height: 100%;
+  font-size: 0.24rem;
+  color: #666;
+  overflow: hidden;
+}
+.record .record-box .record-list .record-item .record-bottom .record-left span {
+  width: 100%;
+  display: inline-block;
+  margin-left: 0.44rem;
+  margin-top: 0.18rem;
+}
+.record .record-box .record-list .record-item .record-bottom .record-right {
+  width: 50%;
+  height: 100%;
+  text-align: right;
+}
+.record .record-box .record-list .record-item .record-bottom .record-right .btn {
+  width: 2rem;
+  height: 0.65rem;
+  border-radius: 0.325rem;
+  background: #26b0ff;
+  font-size: 0.3rem;
+  color: #fff;
+  margin-right: 0.2rem;
+  vertical-align: middle;
+}
+.bankCard {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+.bankCard .bankCard-box {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+}
+.bankCard .bankCard-box .bankCard-nav {
+  width: 100%;
+  height: 0.77rem;
+  line-height: 0.77rem;
+  padding: 0 0.2rem;
+  background: #fff;
+  margin: 0.2rem 0;
+  font-size: 0.3rem;
+  color: #333;
+}
+.bankCard .bankCard-box .bankCard-nav .bankCard-box {
+  width: 50%;
+  height: 100%;
+}
+.bankCard .bankCard-box .bankCard-nav .bankCard-box.active {
+  color: #26b0ff;
+}
+.bankCard .bankCard-box .bankCard-nav .bankCard-box .bankCard-title {
+  text-align: center;
+  line-height: 0.77rem;
+}
+.bankCard .bankCard-box .bankCard-nav .bankCard-box .bankCard-Str {
+  width: 100%;
+  height: 0.04rem;
+  background: #fff;
+  margin-top: -0.03rem;
+}
+.bankCard .bankCard-box .bankCard-nav .bankCard-box.active .bankCard-Str {
+  background: #26b0ff;
+}
+.bankCard .bankCard-box .bankCard-credit {
+  width: 6.82rem;
+  height: auto;
+  margin: 0 auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.bankCard .bankCard-box .bankCard-credit .bankCard-list .bankCard-item {
+  margin-bottom: 0.35rem;
+}
+.bankCard .bankCard-box .bankCard-credit .bankCard-list .bankCard-item .bankCard-itembox {
+  width: 100%;
+  height: 2.6rem;
+  background: #fff;
+  border-radius: 0.3rem;
+}
+.bankCard .bankCard-box .bankCard-credit .bankCard-list .bankCard-item .bankCard-itembox .backCard-top {
+  padding-top: 0.25rem;
+  padding-left: 0.25rem;
+  height: 0.47rem;
+  line-height: 0.47rem;
+}
+.bankCard .bankCard-box .bankCard-credit .bankCard-list .bankCard-item .bankCard-itembox .backCard-top .back-flag {
+  width: 0.47rem;
+  height: 0.47rem;
+}
+.bankCard .bankCard-box .bankCard-credit .bankCard-list .bankCard-item .bankCard-itembox .backCard-top .back-name {
+  font-size: 0.3rem;
+  color: #333;
+  margin-left: 0.2rem;
+}
+.bankCard .bankCard-box .bankCard-credit .bankCard-list .bankCard-item .bankCard-itembox .backCard-top .card-flag {
+  width: 0.8rem;
+  height: 0.4rem;
+  margin-right: 0.25rem;
+}
+.bankCard .bankCard-box .bankCard-credit .bankCard-list .bankCard-item .bankCard-itembox .backCard-num {
+  font-size: 0.24rem;
+  color: #666;
+  margin-top: 0.58rem;
+  margin-left: 0.36rem;
+}
+.bankCard .bankCard-box .bankCard-credit .bankCard-list .bankCard-item .bankCard-itembox .backCard-pass {
+  height: 0.24rem;
+  font-size: 0.48rem;
+  color: #333;
+  margin-left: 0.4rem;
+  margin-top: 0.34rem;
+}
+.bankCard .bankCard-box .bankCard-credit .bankCard-list .bankCard-item .bankCard-itembox .backCard-pass .flag {
+  vertical-align: middle;
+}
+.bankCard .bankCard-box .bankCard-credit .bankCard-add {
+  width: 100%;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  border: 1px dashed #999;
+  border-radius: 0.3rem;
+  color: #999;
+  font-size: 0.36rem;
+  text-align: center;
+  vertical-align: middle;
+}
+.bankCard .bankCard-box .bankCard-credit .bankCard-add i {
+  margin-right: 0.15rem;
+}
+.bankCard .bankCard-box .bankCard-debit {
+  width: 6.82rem;
+  height: auto;
+  margin: 0 auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.bankCard .bankCard-box .bankCard-debit .bankCard-list .bankCard-item {
+  margin-bottom: 0.35rem;
+}
+.bankCard .bankCard-box .bankCard-debit .bankCard-list .bankCard-item .bankCard-itembox {
+  width: 100%;
+  height: 2.6rem;
+  background: #fff;
+  border-radius: 0.3rem;
+}
+.bankCard .bankCard-box .bankCard-debit .bankCard-list .bankCard-item .bankCard-itembox .backCard-top {
+  padding-top: 0.25rem;
+  padding-left: 0.25rem;
+  height: 0.47rem;
+  line-height: 0.47rem;
+}
+.bankCard .bankCard-box .bankCard-debit .bankCard-list .bankCard-item .bankCard-itembox .backCard-top .back-flag {
+  width: 0.47rem;
+  height: 0.47rem;
+}
+.bankCard .bankCard-box .bankCard-debit .bankCard-list .bankCard-item .bankCard-itembox .backCard-top .back-name {
+  font-size: 0.3rem;
+  color: #333;
+  margin-left: 0.2rem;
+}
+.bankCard .bankCard-box .bankCard-debit .bankCard-list .bankCard-item .bankCard-itembox .backCard-top .card-flag {
+  width: 0.8rem;
+  height: 0.4rem;
+  margin-right: 0.25rem;
+}
+.bankCard .bankCard-box .bankCard-debit .bankCard-list .bankCard-item .bankCard-itembox .backCard-num {
+  font-size: 0.24rem;
+  color: #666;
+  margin-top: 0.58rem;
+  margin-left: 0.36rem;
+}
+.bankCard .bankCard-box .bankCard-debit .bankCard-list .bankCard-item .bankCard-itembox .backCard-pass {
+  height: 0.24rem;
+  font-size: 0.48rem;
+  color: #333;
+  margin-left: 0.4rem;
+  margin-top: 0.34rem;
+}
+.bankCard .bankCard-box .bankCard-debit .bankCard-list .bankCard-item .bankCard-itembox .backCard-pass .flag {
+  vertical-align: middle;
+}
+.bankCard .bankCard-box .bankCard-debit .bankCard-add {
+  width: 100%;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  border: 1px dashed #999;
+  border-radius: 0.3rem;
+  color: #999;
+  font-size: 0.36rem;
+  text-align: center;
+  vertical-align: middle;
+}
+.bankCard .bankCard-box .bankCard-debit .bankCard-add i {
+  margin-right: 0.15rem;
+}
+.question {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+.question .question-box {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  padding-top: 0.2rem;
+}
+.question .question-box .question-list {
+  padding: 0 0.2rem;
+  height: auto;
+  background: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+  color: #333;
+  font-size: 0.3rem;
+}
+.question .question-box .question-list .question-item {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #efefef;
+}
+.question .question-box .question-list .question-item:last-child {
+  border: none;
+}
+.question .question-box .question-list .question-item .question-text {
+  width: calc(100% - 0.5rem);
+  padding: 0.2rem 0.15rem;
+  line-height: 0.45rem;
+}
+.question .question-box .question-list .question-item .question-flag {
+  width: 0.5rem;
+  height: 100%;
+  padding-top: 0.3rem;
+}
+.question .question-box .question-list .question-item .question-flag img {
+  width: 0.5rem;
+  height: 0.25rem;
+}
+.question .question-box .question-list .question-item .question-answer {
+  width: 100%;
+  line-height: 0.38rem;
+  padding: 0 0.15rem;
+  padding-bottom: 0.15rem;
+  font-size: 0.28rem;
+  color: #999;
+}
+.AboutUs {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+.AboutUs .AboutUs-box {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  padding-top: 0.2rem;
+}
+.AboutUs .AboutUs-box .AboutUs-list {
+  padding: 0 0.2rem;
+  height: auto;
+  background: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+  color: #333;
+  font-size: 0.3rem;
+}
+.AboutUs .AboutUs-box .AboutUs-list .AboutUs-item {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #efefef;
+}
+.AboutUs .AboutUs-box .AboutUs-list .AboutUs-item:last-child {
+  border: none;
+}
+.AboutUs .AboutUs-box .AboutUs-list .AboutUs-item .AboutUs-text {
+  width: calc(100% - 0.5rem);
+  padding: 0.2rem 0.15rem;
+  line-height: 0.45rem;
+}
+.AboutUs .AboutUs-box .AboutUs-list .AboutUs-item .AboutUs-flag {
+  width: 0.5rem;
+  height: 100%;
+  padding-top: 0.3rem;
+}
+.AboutUs .AboutUs-box .AboutUs-list .AboutUs-item .AboutUs-flag img {
+  width: 0.5rem;
+  height: 0.25rem;
+}
+.AboutUs .AboutUs-box .AboutUs-list .AboutUs-item .AboutUs-answer {
+  width: 100%;
+  line-height: 0.38rem;
+  padding: 0 0.15rem;
+  padding-bottom: 0.15rem;
+  font-size: 0.28rem;
+  color: #999;
+}
+.idea {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+.idea .idea-box {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  padding-top: 0.2rem;
+  text-align: center;
+}
+.idea .idea-box .idea-text {
+  width: 100%;
+  height: 2.72rem;
+  font-size: 0.3rem;
+  color: #999;
+  padding: 0.3rem;
+  background: #fff;
+  resize: none;
+  line-height: 0.3rem;
+}
+.idea .idea-box .idea-btn {
+  width: 6.8rem;
+  height: 0.9rem;
+  margin: 0 auto;
+  border-radius: 0.45rem;
+  background: #26b0ff;
+  color: #fff;
+  font-size: 0.36rem;
+}
+.seting {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+.seting .seting-box {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  padding-top: 0.2rem;
+  text-align: center;
+  color: #333;
+  font-size: 0.3rem;
+}
+.seting .seting-box .seting-hint {
+  width: 100%;
+  line-height: 0.45rem;
+  padding: 0.2rem 0.3rem 0.15rem 0.3rem;
+  font-size: 0.24rem;
+  color: #999;
+  text-align: left;
+}
+.seting .seting-box .seting-list {
+  padding: 0 0.3rem;
+  background: #fff;
+  width: 100%;
+  height: auto;
+}
+.seting .seting-box .seting-list .seting-item {
+  text-align: left;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #efefef;
+}
+.seting .seting-box .seting-list .seting-item:last-child {
+  border: none;
+}
+.seting .seting-box .seting-btn {
+  width: 6.8rem;
+  height: 0.9rem;
+  margin: 0 auto;
+  border-radius: 0.45rem;
+  background: #26b0ff;
+  color: #fff;
+  font-size: 0.36rem;
+  margin-top: 0.97rem;
+}
+.resume {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+.resume .resume-box {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  padding-top: 0.2rem;
+  text-align: center;
+  color: #333;
+  font-size: 0.3rem;
+}
+.resume .resume-box .resume-list {
+  padding: 0 0.3rem;
+  background: #fff;
+  width: 100%;
+  height: auto;
+}
+.resume .resume-box .resume-list .resume-item {
+  text-align: left;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #efefef;
+}
+.resume .resume-box .resume-list .resume-item:last-child {
+  border: none;
+}
+.resume .resume-box .resume-list .resume-item .resume-pictrue {
+  width: 1.07rem;
+  height: 1.07rem;
+  border-radius: 50%;
+  margin: 0.2rem 0;
+  overflow: hidden;
+}
+.resume .resume-box .resume-list .resume-item .resume-pictrue img {
+  width: 100%;
+  height: 100%;
+}
+.nickname {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+.nickname .nickname-box {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  padding-top: 0.2rem;
+  text-align: center;
+  color: #333;
+  font-size: 0.3rem;
+}
+.nickname .nickname-box .nickname-list {
+  margin-top: 0.2rem;
+  width: 100%;
+  height: 0.9rem;
+  background: #fff;
+}
+.nickname .nickname-box .nickname-list .nickname-item {
+  height: 100%;
+  line-height: 0.9rem;
+  padding: 0 0.3rem;
+}
+.nickname .nickname-box .nickname-list .nickname-item input {
+  width: 100%;
+  height: 100%;
+  font-size: 0.3rem;
+  color: #333;
+}
+.nickname .nickname-box .nickname-btn {
+  width: 6.8rem;
+  height: 0.9rem;
+  margin: 0 auto;
+  border-radius: 0.45rem;
+  background: #26b0ff;
+  color: #fff;
+  font-size: 0.36rem;
+  margin-top: 0.97rem;
+}
+.identity {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+.identity .identity-box {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  text-align: center;
+  color: #333;
+  font-size: 0.3rem;
+}
+.identity .identity-box .identity-hint {
+  width: 100%;
+  text-align: center;
+  color: #333;
+  font-size: 0.36rem;
+  margin-top: 0.72rem;
+}
+.identity .identity-box .identity-hint.setPass {
+  padding: 0.35rem 0;
+  background: #fff;
+  margin-top: 0.2rem;
+}
+.identity .identity-box .identity-hint .hint-item {
+  display: inline-block;
+  width: 100%;
+}
+.identity .identity-box .identity-hint .hint-item:last-child {
+  color: #999;
+  font-size: 0.24rem;
+  margin-top: 0.2rem;
+}
+.identity .identity-box .identity-list {
+  width: calc(1.1rem * 6 + 1px);
+  height: 0.9rem;
+  margin: 0.42rem auto;
+  position: relative;
+  border-radius: 3px;
+}
+.identity .identity-box .identity-list .identity-pass {
+  width: 100%;
+  height: 0.9rem;
+  line-height: 1.2rem;
+  font-size: 0.4rem;
+  letter-spacing: 2.4em;
+  position: absolute;
+  left: 0;
+  padding: 0 0.5rem;
+  padding-right: 0;
+  background: transparent;
+}
+.identity .identity-box .identity-list .identity-pass.login {
+  border-radius: 3px;
+  background: #fff;
+  border: 1px solid #d6d5d5;
+  letter-spacing: 0.55em;
+}
+.identity .identity-box .identity-list .identity-item {
+  width: 1.1rem;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  background: #fff;
+  border: 1px solid #d6d5d5;
+  border-right: none;
+}
+.identity .identity-box .identity-list .identity-item:last-child {
+  border-right: 1px solid #d6d5d5;
+}
+.identity .identity-box .identity-hitbar {
+  color: #999;
+  font-size: 0.28rem;
+}
+.identity .identity-box .identity-btn {
+  width: 6.8rem;
+  height: 0.9rem;
+  margin: 0 auto;
+  border-radius: 0.45rem;
+  background: #26b0ff;
+  color: #fff;
+  font-size: 0.36rem;
+  margin-top: 0.5rem;
+}
+.note {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+.note .note-box {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  text-align: center;
+  color: #333;
+  font-size: 0.3rem;
+}
+.note .note-box .note-hint {
+  width: 100%;
+  text-align: center;
+  color: #333;
+  font-size: 0.36rem;
+  margin-top: 0.72rem;
+}
+.note .note-box .note-time {
+  margin-top: 0.2rem;
+  color: #999;
+  font-size: 0.3rem;
+}
+.note .note-box .note-list {
+  width: calc(1.1rem * 4 + 1px);
+  height: 0.9rem;
+  margin: 0.42rem auto;
+  position: relative;
+}
+.note .note-box .note-list .note-pass {
+  width: calc(1.1rem * 4 + 1px);
+  height: 0.9rem;
+  line-height: 1.2rem;
+  font-size: 0.4rem;
+  letter-spacing: 2.4em;
+  position: absolute;
+  left: 0;
+  padding: 0 0.5rem;
+  padding-right: 0;
+  background: transparent;
+}
+.note .note-box .note-list .note-item {
+  width: 1.1rem;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  background: #fff;
+  border: 1px solid #d6d5d5;
+  border-right: none;
+}
+.note .note-box .note-list .note-item:last-child {
+  border-right: 1px solid #d6d5d5;
+}
+.note .note-box .note-hitbar {
+  color: #999;
+  font-size: 0.28rem;
+}
+.binding {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+.binding .binding-box {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  text-align: center;
+  color: #333;
+  font-size: 0.3re;
+}
+.binding .binding-box .binding-list {
+  margin-top: 0.2rem;
+  padding: 0 0.3rem;
+  background: #fff;
+}
+.binding .binding-box .binding-list .binding-item {
+  width: 100%;
+  height: 0.9rem;
+  border-bottom: 1px solid #d6d5d5;
+  font-size: 0.3rem;
+}
+.binding .binding-box .binding-list .binding-item:last-child {
+  border: none;
+}
+.binding .binding-box .binding-list .binding-item .binding-label {
+  width: 1.8rem;
+  height: 100%;
+  color: #333;
+  line-height: 0.9rem;
+}
+.binding .binding-box .binding-list .binding-item .binding-text {
+  width: calc(100% - 1.8rem);
+  height: 100%;
+}
+.binding .binding-box .binding-list .binding-item .binding-icon {
+  width: 0.2rem;
+  height: 0.4rem;
+  right: 0;
+  top: 0.25rem;
+}
+.binding .binding-box .binding-list .binding-item .binding-icon img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.binding .binding-box .binding-hint {
+  font-size: 0.24rem;
+  color: #666;
+  text-align: left;
+  padding: 0 0.3rem;
+  margin-bottom: 0.48rem;
+  margin-top: 0.2rem;
+}
+.binding .binding-box .binding-more {
+  font-size: 0.24rem;
+  display: inline-block;
+  color: #26b0ff;
+}
+.bindCard {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+.bindCard .bindCard-box {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  text-align: center;
+  color: #333;
+  font-size: 0.3rem;
+}
+.bindCard .bindCard-box .bindCard-list {
+  margin-top: 0.2rem;
+  padding: 0 0.3rem;
+  background: #fff;
+}
+.bindCard .bindCard-box .bindCard-list .bindCard-item {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #d6d5d5;
+  font-size: 0.3rem;
+}
+.bindCard .bindCard-box .bindCard-list .bindCard-item:last-child {
+  border: none;
+}
+.bindCard .bindCard-box .bindCard-list .bindCard-item .bindCard-label {
+  width: 1.8rem;
+  height: 100%;
+  color: #666;
+  line-height: 0.9rem;
+}
+.bindCard .bindCard-box .bindCard-list .bindCard-item .bindCard-text {
+  width: calc(100% - 1.8rem);
+  line-height: 0.9rem;
+  height: 0.9rem;
+}
+.bindCard .bindCard-box .bindCard-list .bindCard-item .bindCard-inner {
+  width: calc(100% - 1.8rem);
+  height: 0.9rem;
+  line-height: 0.9rem;
+  color: #333;
+}
+.bindCard .bindCard-box .bindCard-list .bindCard-item .bindCard-icon {
+  width: 0.2rem;
+  height: 0.4rem;
+  right: 0;
+  top: 0.25rem;
+}
+.bindCard .bindCard-box .bindCard-list .bindCard-item .bindCard-icon img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.bindCard .bindCard-box .bindCard-limit {
+  width: 100%;
+  height: 3.71rem;
+  background: #fff;
+}
+.bindCard .bindCard-box .bindCard-limit .limit-hint {
+  width: 100%;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  background: #ffc03a;
+  color: #df0a0a;
+  font-size: 0.24rem;
+}
+.bindCard .bindCard-box .bindCard-limit .limit-title {
+  font-size: 0.32rem;
+  color: #999;
+  margin-top: 0.4rem;
+}
+.bindCard .bindCard-box .bindCard-limit .limit-number {
+  font-size: 0.8rem;
+  color: #333;
+  font-weight: bold;
+  margin-top: 0.6rem;
+}
+.bindCard .bindCard-box .bindCard-limit .limit-number img {
+  width: 0.3rem;
+  height: 0.4rem;
+  top: -0.05rem;
+}
+.bindCard .bindCard-box .bindCard-limit .limit-bar {
+  width: 100%;
+  padding: 0 0.33rem;
+  margin-top: 0.4rem;
+  height: 0.26rem;
+}
+.bindCard .bindCard-box .bindCard-limit .limit-bar .limit-barBox {
+  width: calc(100% - 0.52rem - 0.96rem);
+  height: 0.2rem;
+  margin: 0 0.26rem;
+  background: #c8c8c8;
+  border-radius: 0.1rem;
+}
+.bindCard .bindCard-box .bindCard-limit .limit-bar .limit-barBox .limit-barBac {
+  width: 100%;
+  height: 100%;
+  background: #26b0ff;
+  border-radius: 0.1rem;
+}
+.bindCard .bindCard-box .bindCard-limit .limit-bar .limit-barBox .limit-barBtn {
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 0.26rem;
+  background: #fff;
+  box-shadow: 0 0 0.2rem #888;
+  top: -0.08rem;
+}
+.bindCard .bindCard-box .bindCard-limit .limit-bar .limit-icon {
+  width: 0.48rem;
+  height: 0.48rem;
+  margin-top: -0.15rem;
+}
+.bindCard .bindCard-box .bindCard-limit .limit-bar .limit-icon img {
+  width: 100%;
+  height: 100%;
+}
+.bindCard .bindCard-box .bindCard-hint {
+  font-size: 0.24rem;
+  color: #666;
+  padding: 0 0.3rem;
+  margin-bottom: 0.48rem;
+  margin-top: 0.2rem;
+}
+.bindCard .bindCard-box .bindCard-hint .hint-select {
+  width: 0.35rem;
+  height: auto;
+}
+.bindCard .bindCard-box .bindCard-hint .hint-text {
+  margin-left: 0.2rem;
+  width: calc(100% - 0.55rem);
+  height: auto;
+}
+.bindCard .bindCard-box .bindCard-hint img {
+  width: 0.35rem;
+  height: 0.35rem;
+  vertical-align: middle;
+}
+.bindCard .bindCard-box .bindCard-hint .more {
+  color: #26b0ff;
+}
+.bindCard .bindCard-box .bindCard-more {
+  font-size: 0.24rem;
+  display: inline-block;
+  color: #26b0ff;
+}
+.discount {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+.discount .discount-box {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  text-align: center;
+  color: #333;
+  font-size: 0.3rem;
+}
+.discount .discount-box .discount-list {
+  margin-top: 0.2rem;
+  padding: 0 0.3rem;
+}
+.discount .discount-box .discount-list .discount-item {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border-radius: 3px;
+  margin-bottom: 0.2rem;
+}
+.discount .discount-box .discount-list .discount-item.active {
+  color: #999;
+}
+.discount .discount-box .discount-list .discount-item .discount-top {
+  width: 100%;
+  height: auto;
+  padding: 0.22rem 0.26rem;
+}
+.discount .discount-box .discount-list .discount-item .discount-top .discount-left {
+  width: auto;
+  height: auto;
+}
+.discount .discount-box .discount-list .discount-item .discount-top .discount-left .discount-title {
+  width: 100%;
+  font-size: 0.32rem;
+  color: #333;
+  margin-bottom: 0.2rem;
+}
+.discount .discount-box .discount-list .discount-item .discount-top .discount-left .discount-inner {
+  width: 100%;
+  font-size: 0.24rem;
+  color: #666;
+}
+.discount .discount-box .discount-list .discount-item .discount-top .discount-right {
+  width: auto;
+  height: auto;
+}
+.discount .discount-box .discount-list .discount-item .discount-top .discount-right .discount-flag {
+  width: 0.2rem;
+  height: 0.25rem;
+  margin-top: 0.3rem;
+  margin-left: 0.2rem;
+}
+.discount .discount-box .discount-list .discount-item .discount-top .discount-right .discount-flag img {
+  width: 100%;
+  height: 100%;
+}
+.discount .discount-box .discount-list .discount-item .discount-top .discount-right .discount-number {
+  font-size: 0.8rem;
+  color: #df0a0a;
+}
+.discount .discount-box .discount-list .discount-item .circle-left,
+.discount .discount-box .discount-list .discount-item .circle-right {
+  width: 0.22rem;
+  height: 0.22rem;
+  border-radius: 50%;
+  background: #eee;
+  top: -0.12rem;
+}
+.discount .discount-box .discount-list .discount-item .circle-left {
+  left: -0.12rem;
+}
+.discount .discount-box .discount-list .discount-item .circle-right {
+  right: -0.12rem;
+}
+.discount .discount-box .discount-list .discount-item .discount-bottom {
+  width: 100%;
+  height: auto;
+  padding: 0.22rem 0.26rem;
+  border-top: 1px dashed #efefef;
+}
+.discount .discount-box .discount-list .discount-item .discount-bottom .discount-time {
+  width: 100%;
+  display: inline-block;
+  color: #666;
+  font-size: 0.24rem;
+}
+.myinfo-box {
+  width: 100%;
+  height: calc(100% - 1rem);
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  text-align: center;
+  color: #333;
+  font-size: 0.3rem;
+}
+.myinfo-box .myinfo-info {
+  width: 100%;
+  height: auto;
+  padding: 0.24rem 0.34rem;
+  background: #26b0ff;
+}
+.myinfo-box .myinfo-info .myinfo-photo {
+  width: 1.53rem;
+  height: 1.53rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.myinfo-box .myinfo-info .myinfo-photo img {
+  width: 100%;
+  height: 100%;
+}
+.myinfo-box .myinfo-info .myinfo-text {
+  margin-top: 0.35rem;
+  margin-left: 0.36rem;
+  color: #fff;
+}
+.myinfo-box .myinfo-info .myinfo-text .text-item {
+  margin-bottom: 0.2rem;
+  font-size: 0.36rem;
+}
+.myinfo-box .myinfo-info .myinfo-text .text-item:last-child {
+  font-size: 0.3rem;
+}
+.myinfo-box .myinfo-list {
+  margin-top: 0.2rem;
+  padding: 0 0.2rem;
+  background: #fff;
+}
+.myinfo-box .myinfo-list .myinfo-item {
+  padding: 0 0.15rem;
+  width: 100%;
+  height: auto;
+}
+.myinfo-box .myinfo-list .myinfo-item .item-label {
+  width: 0.4rem;
+  height: auto;
+  margin-right: 0.2rem;
+  margin-top: 0.22rem;
+  box-sizing: border-box;
+}
+.myinfo-box .myinfo-list .myinfo-item .item-label img {
+  width: 100%;
+  height: 100%;
+}
+.myinfo-box .myinfo-list .myinfo-item .item-name {
+  width: calc(100% - 1.5rem);
+  height: 0.9rem;
+  line-height: 0.9rem;
+  font-size: 0.3rem;
+  color: #666;
+}
+.myinfo-box .myinfo-list .myinfo-item .item-icon {
+  width: 0.2rem;
+  height: 0.4rem;
+  margin-top: 0.25rem;
+}
+.moneyInfo {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+.moneyInfo .moneyInfo-box {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  text-align: center;
+  color: #333;
+  font-size: 0.3rem;
+  padding-bottom: 0.65rem;
+}
+.moneyInfo .moneyInfo-box .moneyInfo-info {
+  width: 100%;
+  height: auto;
+  padding: 0 0.34rem;
+  background: #26b0ff;
+}
+.moneyInfo .moneyInfo-box .moneyInfo-info .moneyInfo-title {
+  font-size: 0.24rem;
+  color: #fff;
+  padding: 0.3rem 0;
+}
+.moneyInfo .moneyInfo-box .moneyInfo-info .moneyInfo-num {
+  font-size: 0.8rem;
+  color: #fff;
+  padding-bottom: 0.4rem;
+  margin: 0 auto;
+  display: inline-block;
+}
+.moneyInfo .moneyInfo-box .moneyInfo-info .moneyInfo-num .num-flag {
+  width: 0.3rem;
+  height: 0.4rem;
+  margin-top: -0.1rem;
+  margin-right: 0.2rem;
+}
+.moneyInfo .moneyInfo-box .moneyInfo-info .moneyInfo-num .num-flag img {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+.moneyInfo .moneyInfo-box .moneyInfo-bar {
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+.moneyInfo .moneyInfo-box .moneyInfo-bar .title-time {
+  display: inline-block;
+  color: #666;
+  font-size: 0.24rem;
+  padding-top: 0.18rem;
+  width: 100%;
+}
+.moneyInfo .moneyInfo-box .moneyInfo-bar .title-num {
+  width: 100%;
+  display: inline-block;
+  color: #333;
+  font-size: 0.3rem;
+  padding: 0.22rem 0;
+}
+.moneyInfo .moneyInfo-box .moneyInfo-bar .bar-title,
+.moneyInfo .moneyInfo-box .moneyInfo-bar .bar-text {
+  width: 50%;
+  height: auto;
+}
+.moneyInfo .moneyInfo-box .moneyInfo-bar .bar-text {
+  color: #333;
+  font-size: 0.36rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  padding-right: 0.9rem;
+  text-align: right;
+}
+.moneyInfo .moneyInfo-box .moneyInfo-list {
+  margin-top: 0.2rem;
+  padding: 0 0.2rem;
+  background: #fff;
+}
+.moneyInfo .moneyInfo-box .moneyInfo-list .list-title {
+  border-bottom: 1px solid #d6d5d5;
+  padding: 0 0.15rem;
+  width: 100%;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  background: #fff;
+  color: #333;
+  font-size: 0.3rem;
+  margin-bottom: 0.16rem;
+}
+.moneyInfo .moneyInfo-box .moneyInfo-list .moneyInfo-item {
+  padding: 0.16rem 0;
+  padding-right: 0.15rem;
+  padding-left: 0.3rem;
+  width: 100%;
+  height: auto;
+  color: #666;
+  font-size: 0.28rem;
+}
+.moneyInfo .moneyInfo-box .moneyInfo-list .moneyInfo-item:last-child {
+  padding-bottom: 0.32rem;
+}
+.bargain {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+.bargain .bargain-box {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  text-align: center;
+  color: #333;
+  font-size: 0.3rem;
+  padding-bottom: 0.65rem;
+}
+.bargain .bargain-box .bargain-list {
+  width: 100%;
+  height: auto;
+  margin-top: 0.2rem;
+  background: #fff;
+  padding: 0 0.2rem;
+}
+.bargain .bargain-box .bargain-list .bargain-item {
+  border-bottom: 1px solid #d6d5d5;
+  color: #333;
+  font-size: 0.3rem;
+  height: 0.9rem;
+  line-height: calc(0.9rem + 1px);
+  padding-left: 0.15rem;
+}
+.bargain .bargain-box .bargain-list .bargain-item:last-child {
+  border: none;
+  line-height: 0.9rem;
+}
+.coupon-list {
+  width: 100%;
+  height: auto;
+  padding: 0 0.3rem;
+  background: #fff;
+  margin-top: 0.2rem;
+}
+.coupon-list .coupon-item {
+  width: 50%;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  color: #333;
+}
+.coupon-list .coupon-item.active {
+  color: #26b0ff;
+}
+.coupon-list .coupon-item.active .item-str {
+  background: #26b0ff;
+}
+.coupon-list .coupon-item .item-str {
+  width: 100%;
+  height: 2px;
+  background: transparent;
+  margin-top: -1px;
+}
+.coupon-flag {
+  width: 1.1rem;
+  height: 0.9rem;
+  top: 1.1rem;
+  right: 0.3rem;
+}
+.coupon-flag img {
+  width: 100%;
+  height: 100%;
+}
+.protocol {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+.protocol .protocol-box {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  text-align: center;
+  color: #333;
+  font-size: 0.3rem;
+}
+.protocol .protocol-box .protocol-text {
+  width: 100%;
+  height: calc(100% - 0.2rem);
+  padding: 0 0.25rem;
+  margin-top: 0.2rem;
+  background: #fff;
+  color: #999;
+  font-size: 0.3rem;
+}
+.protocol .protocol-box .protocol-text .text-title {
+  color: #333;
+  padding: 0.2rem 0 0.2rem 0;
+}
+.protocol .protocol-box .protocol-text .protocol-inner {
+  line-height: 0.45rem;
+  text-align: left;
+}
+.protocol .protocol-box .protocol-text .protocol-inner .text-p {
+  text-indent: 2em;
+}
+.protocol .protocol-box .protocol-text .title-right {
+  font-size: 0.2rem;
+  color: #999;
+}
+.messagesbox {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+.messagesbox .messagesbox-box {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  color: #333;
+  font-size: 0.3rem;
+}
+.messagesbox .messagesbox-box .messagesbox-list {
+  margin-top: 0.2rem;
+  width: 100%;
+  height: calc(100% - 0.2rem);
+  padding: 0 0.25rem;
+  background: #fff;
+}
+.messagesbox .messagesbox-box .messagesbox-list .messagesbox-item {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #d6d5d5;
+  padding: 0.15rem 0.05rem 0.1rem 0.05rem;
+}
+.messagesbox .messagesbox-box .messagesbox-list .messagesbox-item .item-link {
+  width: 100%;
+  height: auto;
+}
+.messagesbox .messagesbox-box .messagesbox-list .messagesbox-item .item-link .item-icon {
+  width: 0.74rem;
+  height: 0.74rem;
+  border-radius: 0.74rem;
+  text-align: center;
+  line-height: 0.98rem;
+}
+.messagesbox .messagesbox-box .messagesbox-list .messagesbox-item .item-link .item-icon img {
+  width: 0.45rem;
+  height: 0.45rem;
+}
+.messagesbox .messagesbox-box .messagesbox-list .messagesbox-item .item-link .item-text {
+  width: calc(100% - 0.74rem);
+  height: auto;
+  padding-left: 0.15rem;
+}
+.messagesbox .messagesbox-box .messagesbox-list .messagesbox-item .item-link .item-text .item-top {
+  padding-bottom: 0.05rem;
+}
+.messagesbox .messagesbox-box .messagesbox-list .messagesbox-item .item-link .item-text .item-title {
+  color: #333;
+  font-size: 0.3rem;
+}
+.messagesbox .messagesbox-box .messagesbox-list .messagesbox-item .item-link .item-text .item-time {
+  color: #999;
+  font-size: 0.24rem;
+}
+.messagesbox .messagesbox-box .messagesbox-list .messagesbox-item .item-link .item-text .item-inner {
+  color: #999;
+  font-size: 0.3rem;
+}
+.next-btn {
+  width: 6.8rem;
+  height: 0.9rem;
+  margin: 0 auto;
+  border-radius: 0.45rem;
+  background: #26b0ff;
+  color: #fff;
+  font-size: 0.36rem;
+  margin-top: 0.5rem;
+}
+.next-btn.active {
+  background: #d9d9d9;
+  color: #c8c8c8;
+}
